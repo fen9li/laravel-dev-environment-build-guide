@@ -193,7 +193,7 @@ Syntax OK
 ~]#
 ```
 
-- Enter http://<developing-host-ip-address>/index.php in web browser url bar to test
+- Enter http://[developing-host-ip-address]/index.php in web browser url bar to test
 - Double check by running Laravel artisan commands (the result may differ from individual source code versions)
 ```sh
 simple-laravel-app]$ php artisan route:list
