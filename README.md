@@ -222,7 +222,7 @@ drwxr-xr-x. 9 root root 4096 Oct  2 13:05 ..
 [root@lara201 ~]#
 ```
 
-## Make further developing / updating, raise pull / merge request and start new updating cycle
+## Make further developing / updating, raise pull / merge request and start new developing cycle
 Developer can do further developing / updating or raise pull / merge request based on testing result, and then start new developing cycle.
 
 # License
