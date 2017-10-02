@@ -49,6 +49,7 @@ REDHAT_SUPPORT_PRODUCT_VERSION="7"
 ~]# 
 ```
 
+- Configure firewall
 - Install and configure git
 - Install httpd
 - Install php 7.x +
@@ -56,6 +57,10 @@ REDHAT_SUPPORT_PRODUCT_VERSION="7"
 - Install other necessary software packages
 
 ```sh
+~]# firewall-cmd --permanent --add-service={http,https}
+...
+~]# firewall-cmd --reload
+...
 ~]# yum -y install git httpd tree policycoreutils-python
 ...
 ~]# rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
